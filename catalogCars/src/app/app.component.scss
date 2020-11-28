@@ -1,7 +1,36 @@
 .container {
   min-height: 100%;
-  padding: 60px 1rem;
   background: lightgrey;
   display: block;
   overflow-y: hidden;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background: white;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  .logo {
+    text-decoration: none;
+    color: black;
+  }
+
+  mat-nav-list {
+    display: flex;
+    padding: 0;
+
+    a {
+      width: auto;
+    }
+  }
 }
+
+
+
+

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {AuthorizationService} from './autorization-directory/shared/authorization.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'catalogCars';
+
+  constructor(
+    public auth: AuthorizationService,
+    private router: Router
+    ) {
+  }
+
+  logout(event: Event): void {
+    event.preventDefault();
+    this.auth.logout();
+    this.router.navigate(['/']);
+  }
 }

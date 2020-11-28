@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {Router} from '@angular/router';
+import {AuthorizationService} from '../autorization-directory/shared/authorization.service';
+import {User} from '../autorization-directory/shared/interfaces';
 
 @Component({
   selector: 'app-page-login',
@@ -12,7 +14,10 @@ export class PageLoginComponent implements OnInit {
   loginForm: FormGroup;
   hide: boolean;
 
-  constructor(private router: Router) { }
+  constructor(
+    public auth: AuthorizationService,
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
     this.hide = true;
@@ -23,12 +28,17 @@ export class PageLoginComponent implements OnInit {
   }
 
   onLogin(): void {
-    const user = {
+    if (this.loginForm.invalid) {
+      return;
+    }
+    const user: User = {
       email: this.loginForm.value.email,
       password: this.loginForm.value.password,
     };
-    console.log(user);
-    /*this.router.navigate('');*/
+    this.auth.login(user).subscribe(() => {
+      this.loginForm.reset();
+      this.router.navigate(['/catalog']);
+    });
   }
 
 }

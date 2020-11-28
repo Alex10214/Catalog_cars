@@ -11,16 +11,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4900dd53-2bc6-49a5-ac7c-7af5c3e6cdea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/guards.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/posts.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogCars/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogCars/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogCars/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogCars/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogCars/src/app/page-login/page-login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/page-login/page-login.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogCars/src/app/page-login/page-login.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/page-login/page-login.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogCars/src/app/page-login/page-login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/page-login/page-login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogCars/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogCars/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +85,30 @@
       <workItem from="1606425182653" duration="1795000" />
       <workItem from="1606426990631" duration="1802000" />
       <workItem from="1606428812752" duration="561000" />
-      <workItem from="1606429392178" duration="1106000" />
+      <workItem from="1606429392178" duration="1795000" />
+      <workItem from="1606431211494" duration="1790000" />
+      <workItem from="1606433028630" duration="1194000" />
+      <workItem from="1606436812772" duration="1789000" />
+      <workItem from="1606438617188" duration="1796000" />
+      <workItem from="1606440427416" duration="1710000" />
+      <workItem from="1606461352166" duration="1795000" />
+      <workItem from="1606463174851" duration="1787000" />
+      <workItem from="1606464977005" duration="1794000" />
+      <workItem from="1606466785166" duration="647000" />
+      <workItem from="1606467446065" duration="838000" />
+      <workItem from="1606469424385" duration="1797000" />
+      <workItem from="1606471240565" duration="1331000" />
+      <workItem from="1606472713169" duration="1793000" />
+      <workItem from="1606474524655" duration="1804000" />
+      <workItem from="1606476347458" duration="649000" />
+      <workItem from="1606480876685" duration="1794000" />
+      <workItem from="1606482685545" duration="1792000" />
+      <workItem from="1606484502317" duration="1295000" />
+      <workItem from="1606553216598" duration="1791000" />
+      <workItem from="1606555021892" duration="1794000" />
+      <workItem from="1606556830971" duration="1793000" />
+      <workItem from="1606558640167" duration="1795000" />
+      <workItem from="1606560449867" duration="1581000" />
     </task>
     <servers />
   </component>
@@ -97,13 +132,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="494" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1606421915975" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1606430218236">
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1606482644824">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606430218236" />
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1606482644824" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606438499118">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1606438499118" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1606557219454">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606557219454" />
     <state x="225" y="95" key="SettingsEditor" timestamp="1606427069172">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="225" y="95" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1606427069172" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1606481249326">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1606481249326" />
   </component>
 </project>

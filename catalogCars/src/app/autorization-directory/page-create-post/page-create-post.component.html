@@ -1,1 +1,38 @@
-<p>page-create-post works!</p>
+<mat-card>
+  <mat-card-content>
+    <div class="header">
+      <h2>Add your car</h2>
+    </div>
+    <form (ngSubmit)="addPost()" name="loginForm"  [formGroup]="form">
+      <div class="email-input">
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Entre name your car</mat-label>
+          <input formControlName="name" type="text" matInput required />
+          <mat-error *ngIf="form.get('name').errors?.required">
+            Required field
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="email-input">
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Entre description your car</mat-label>
+          <textarea formControlName="description" matInput required></textarea>
+          <mat-error *ngIf="form.get('description').errors?.required">
+            Required field
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="email-input">
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Enter the age of the car</mat-label>
+          <input formControlName="age" type="number" matInput required />
+          <mat-error *ngIf="form.get('age').errors?.required">
+            Required field
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <button mat-flat-button color="primary">Add</button>
+    </form>
+  </mat-card-content>
+</mat-card>
