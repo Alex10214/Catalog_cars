@@ -11,22 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4900dd53-2bc6-49a5-ac7c-7af5c3e6cdea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/card-post/card-post.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalogCars/GET_STARTED.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/interfaces.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/posts.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -134,7 +120,9 @@
       <workItem from="1606645524213" duration="1805000" />
       <workItem from="1606647349304" duration="1794000" />
       <workItem from="1606649156519" duration="1802000" />
-      <workItem from="1606650972726" duration="1245000" />
+      <workItem from="1606650972726" duration="1686000" />
+      <workItem from="1606652711388" duration="4000" />
+      <workItem from="1606654509178" duration="208000" />
     </task>
     <servers />
   </component>
@@ -170,10 +158,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1606438499118" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1606642944089">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1606652603435">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606642944089" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606652603435" />
     <state x="225" y="95" key="SettingsEditor" timestamp="1606427069172">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
