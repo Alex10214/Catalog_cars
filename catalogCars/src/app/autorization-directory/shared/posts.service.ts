@@ -19,4 +19,27 @@ export class PostsService {
           return newPost;
         }));
     }
+
+    getAll(): Observable<any> {
+    return this.http.get(`${environment.fbDbUrl}/posts.json`)
+      .pipe(map((response: any) => {
+          /*console.log('RESPONSE', response) // firebase return obscure object*/
+          /*console.log('RESPONSE', Object.keys(response)) // get keys*/
+          return Object.keys(response).map(key => ({
+            ...response[key],
+            id: key,
+          }));
+        })
+      );
+    }
+
+    getById(id: string): Observable<Post> {
+    return this.http.get(`${environment.fbDbUrl}/posts/${id}.json`)
+      .pipe(map((post: Post) => {
+        const newPost: Post = {
+          ...post, id
+        };
+        return newPost;
+      }));
+    }
 }

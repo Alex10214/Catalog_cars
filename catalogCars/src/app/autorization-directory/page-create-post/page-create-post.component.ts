@@ -15,7 +15,7 @@ export class PageCreatePostComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private  postService: PostsService
+    private  postService: PostsService,
   ) {
   }
 
@@ -23,12 +23,16 @@ export class PageCreatePostComponent implements OnInit {
     this.hide = true;
     this.form = new FormGroup({
       name: new FormControl('', [Validators.required]),
+      addressIcon: new FormControl('', [
+        Validators.required,
+        Validators.pattern('http.+')
+      ]),
       description: new FormControl('', [Validators.required, Validators.minLength(7)]),
-      age: new FormControl('', [Validators.required])
+      age: new FormControl('', [Validators.required, Validators.maxLength(4), Validators.minLength(4)])
     });
   }
 
-  addPost(): any {
+  addPost(): void {
     if (this.form.invalid) {
       return;
     }
@@ -37,11 +41,12 @@ export class PageCreatePostComponent implements OnInit {
       name: this.form.value.name,
       description: this.form.value.description,
       age: this.form.value.age,
+      addressIcon: this.form.value.addressIcon,
     };
 
     this.postService.create(post).subscribe(() => {
       this.form.reset();
+      this.router.navigate(['catalog']);
     });
-    this.router.navigate(['catalog']);
   }
 }

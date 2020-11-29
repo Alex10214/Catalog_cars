@@ -1,0 +1,18 @@
+<div>
+  <mat-card>
+    <mat-card-title>
+      <h2>{{post.name}}</h2>
+    </mat-card-title>
+    <mat-card-content>
+      <div>
+        <div class="email-input">
+          <img mat-card-image src="{{post.addressIcon}}" alt="no photo">
+        </div>
+      </div>
+      <p>Year of car manufacture: {{post.age}}</p>
+      <button mat-flat-button color="primary" [routerLink]="['../onePost' ,'car', post.id]">Open Post</button>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+

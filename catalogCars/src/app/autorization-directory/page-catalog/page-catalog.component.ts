@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnChanges, OnInit, SimpleChanges} from '@angular/core';
+import {PostsService} from '../shared/posts.service';
+import {Observable} from 'rxjs';
+import {Post} from '../shared/interfaces';
 
 @Component({
   selector: 'app-page-catalog',
@@ -7,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageCatalogComponent implements OnInit {
 
-  constructor() { }
+  posts: Post[];
 
-  ngOnInit(): void {
+
+  constructor(private postService: PostsService) { }
+
+   ngOnInit(): void {
+      this.postService.getAll().subscribe((posts) => {
+      this.posts = posts;
+      console.log(this.posts);
+    });
   }
 
 }

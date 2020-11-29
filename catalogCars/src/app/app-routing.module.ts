@@ -9,7 +9,7 @@ import {PageLoginComponent} from './page-login/page-login.component';
         .then(m => m.PageCatalogModule)},
     {path: 'create', loadChildren: () => import('./autorization-directory/page-create-post/page-create-post.module')
         .then(m => m.PageCreatePostModule)},
-    {path: 'post/id', loadChildren: () => import('./autorization-directory/page-post/page-post.module')
+    {path: 'onePost', loadChildren: () => import('./autorization-directory/page-post/page-post.module')
         .then(m => m.PagePostModule)}
   ])],
   exports: [RouterModule]

@@ -13,6 +13,7 @@ export interface Post {
   description: string;
   age: number;
   id?: any;
+  addressIcon: string;
 }
 
 export interface FbResponseIdPost {

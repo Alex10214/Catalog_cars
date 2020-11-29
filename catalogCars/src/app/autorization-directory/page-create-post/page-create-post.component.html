@@ -25,10 +25,28 @@
       </div>
       <div class="email-input">
         <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Insert link to image</mat-label>
+          <input formControlName="addressIcon" type="text" matInput required />
+          <mat-error *ngIf="form.get('addressIcon').errors?.required">
+            Required field
+          </mat-error>
+          <mat-error *ngIf="form.get('addressIcon').errors?.pattern">
+            The link must start with http://
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="email-input">
+        <mat-form-field class="full-width" appearance="outline">
           <mat-label>Enter the age of the car</mat-label>
           <input formControlName="age" type="number" matInput required />
           <mat-error *ngIf="form.get('age').errors?.required">
             Required field
+          </mat-error>
+          <mat-error *ngIf="form.get('age').errors?.maxLength">
+            Must be 4 digits
+          </mat-error>
+          <mat-error *ngIf="form.get('age').errors?.minLength">
+            must be 4 digits
           </mat-error>
         </mat-form-field>
       </div>

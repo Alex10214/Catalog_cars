@@ -38,6 +38,9 @@ const INTERCEPTOR_PROVIDER: Provider = {
     HttpClientModule
   ],
   providers: [INTERCEPTOR_PROVIDER],
+  exports: [
+    PageLoginComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
