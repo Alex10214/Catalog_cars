@@ -11,6 +11,9 @@
           <mat-error *ngIf="form.get('name').errors?.required">
             Required field
           </mat-error>
+          <mat-error *ngIf="form.get('name').errors?.maxlength">
+            Maximum 25 characters
+          </mat-error>
         </mat-form-field>
       </div>
 
@@ -42,11 +45,11 @@
           <mat-error *ngIf="form.get('age').errors?.required">
             Required field
           </mat-error>
-          <mat-error *ngIf="form.get('age').errors?.maxLength">
-            Must be 4 digits
+          <mat-error *ngIf="form.get('age').errors?.min">
+            There should be minimum 1950 year
           </mat-error>
-          <mat-error *ngIf="form.get('age').errors?.minLength">
-            must be 4 digits
+          <mat-error *ngIf="form.get('age').errors?.max">
+            There should be minimum 2020 year
           </mat-error>
         </mat-form-field>
       </div>

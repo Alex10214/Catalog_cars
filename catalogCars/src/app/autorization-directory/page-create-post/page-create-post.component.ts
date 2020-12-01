@@ -11,7 +11,6 @@ import {Post} from '../shared/interfaces';
 })
 export class PageCreatePostComponent implements OnInit {
   form: FormGroup;
-  hide: boolean;
 
   constructor(
     private router: Router,
@@ -20,16 +19,26 @@ export class PageCreatePostComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.hide = true;
     this.form = new FormGroup({
-      name: new FormControl('', [Validators.required]),
+      name: new FormControl('', [
+        Validators.required,
+        Validators.maxLength(25)
+      ]),
       addressIcon: new FormControl('', [
         Validators.required,
         Validators.pattern('http.+')
       ]),
-      description: new FormControl('', [Validators.required, Validators.minLength(7)]),
-      age: new FormControl('', [Validators.required, Validators.maxLength(4), Validators.minLength(4)])
+      description: new FormControl('', [
+        Validators.required,
+        Validators.minLength(7)
+      ]),
+      age: new FormControl('', [
+        Validators.required,
+        Validators.min(1900),
+        Validators.max(2020),
+      ])
     });
+    console.log('form', this.form);
   }
 
   addPost(): void {
@@ -43,6 +52,7 @@ export class PageCreatePostComponent implements OnInit {
       age: this.form.value.age,
       addressIcon: this.form.value.addressIcon,
     };
+    console.log(post);
 
     this.postService.create(post).subscribe(() => {
       this.form.reset();
