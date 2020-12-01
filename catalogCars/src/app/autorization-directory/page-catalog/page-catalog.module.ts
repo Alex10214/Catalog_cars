@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {RouterModule} from '@angular/router';
-import {PageCatalogComponent} from './page-catalog.component';
-import {GuardService} from '../shared/guards';
 import {MatCardModule} from '@angular/material/card';
-import {CardPostComponent} from './card-post/card-post.component';
+import {PageCatalogComponent} from './page-catalog.component';
 import {MatButtonModule} from '@angular/material/button';
+
+import {GuardService} from '../shared/guards';
+import {CardPostComponent} from './card-post/card-post.component';
 
 @NgModule({
   declarations: [PageCatalogComponent, CardPostComponent],

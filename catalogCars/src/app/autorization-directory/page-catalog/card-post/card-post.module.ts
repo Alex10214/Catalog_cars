@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {RouterModule} from '@angular/router';
-import {GuardService} from '../../shared/guards';
 import {MatCardModule} from '@angular/material/card/card-module';
-import {CardPostComponent} from './card-post.component';
 import {MatButtonModule} from '@angular/material/button';
+
+import {CardPostComponent} from './card-post.component';
+import {GuardService} from '../../shared/guards';
 
 @NgModule({
   declarations: [ CardPostComponent],

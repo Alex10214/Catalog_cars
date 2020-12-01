@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {Router} from '@angular/router';
+
 import {PostsService} from '../shared/posts.service';
 import {Post} from '../shared/interfaces';
 
@@ -38,7 +39,6 @@ export class PageCreatePostComponent implements OnInit {
         Validators.max(2020),
       ])
     });
-    console.log('form', this.form);
   }
 
   addPost(): void {
@@ -52,7 +52,6 @@ export class PageCreatePostComponent implements OnInit {
       age: this.form.value.age,
       addressIcon: this.form.value.addressIcon,
     };
-    console.log(post);
 
     this.postService.create(post).subscribe(() => {
       this.form.reset();
