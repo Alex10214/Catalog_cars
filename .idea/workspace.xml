@@ -12,21 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4900dd53-2bc6-49a5-ac7c-7af5c3e6cdea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/card-post/card-post.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/card-post/card-post.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/card-post/card-post.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/card-post/card-post.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-catalog/page-catalog.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-post/page-post.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/authorization.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/authorization.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/guards.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/guards.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/interceptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/shared/posts.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/page-login/page-login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/page-login/page-login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogCars/src/app/autorization-directory/page-create-post/page-create-post.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +130,8 @@
       <workItem from="1606836384575" duration="1795000" />
       <workItem from="1606838219453" duration="1795000" />
       <workItem from="1606840028340" duration="1795000" />
-      <workItem from="1606841845252" duration="227000" />
+      <workItem from="1606841845252" duration="305000" />
+      <workItem from="1606842191501" duration="34000" />
     </task>
     <servers />
   </component>
